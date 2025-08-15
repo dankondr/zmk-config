@@ -16,6 +16,11 @@
             bindings = <&caps_word>;
             key-positions = <36 49>;
         };
+
+        jk_esc {
+            bindings = <&kp ESC>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
