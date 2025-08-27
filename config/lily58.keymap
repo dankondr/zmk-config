@@ -48,6 +48,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "balanced";
+            require-prior-idle-ms = <75>;
         };
 
         mod_key_home_row: mod_key_home_row {
@@ -57,7 +58,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
+            require-prior-idle-ms = <75>;
         };
     };
 
